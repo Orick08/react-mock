@@ -1,0 +1,30 @@
+.plan-mini{
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+  padding: 20px 0;
+  border-radius: 10px;
+  max-width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.plan-icon{
+  padding-left: 5%;
+  padding-right: 5%;
+  flex-grow: 1;
+}
+
+.plan-text{
+  padding-right: 10px;
+  flex-grow: 4;
+  text-align: left;
+}
+
+.plan-link{
+  font-weight: 700;
+  font-size: 14px;
+
+  flex-grow: 2;
+  padding-top: 4%;
+}

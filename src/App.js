@@ -7,7 +7,7 @@ const header = "Order summary";
 const description = (
   <div>
     <p>You can now listen to millions of songs, audiobooks, and podcast on any device anywhere you like!</p>
-    <PlanMini icon={iconPlan} name={"Hello"} price="world" />
+    <PlanMini icon={iconPlan} name={"Annual Plan"} price="$59.99/year" />
   </div>
 );
 
