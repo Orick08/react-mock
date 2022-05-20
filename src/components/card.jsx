@@ -8,9 +8,6 @@ export function Card({ image, header, content, footer }) {
       <div className='content'>
         {content}
       </div>
-      <button>Procced to payment</button>
-      <br />
-      <button>Cancel order</button>
     </div>
   );
 }

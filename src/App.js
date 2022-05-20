@@ -11,9 +11,17 @@ const description = (
   </div>
 );
 
+const buttons = (
+  <div>
+    <button>Procced to payment</button>
+    <br />
+    <button>Cancel order</button>
+  </div>
+);
+
 export function App() {
   return (
-    <Card image={imgHeader} header={header} content={description} />
+    <Card image={imgHeader} header={header} content={description} footer={buttons} />
     // <img src={imgHeader} alt="logo" />
   );
 }
