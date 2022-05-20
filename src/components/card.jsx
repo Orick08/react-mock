@@ -5,7 +5,9 @@ export function Card({ image, header, content, footer }) {
     <div className="card">
       <img src={image} className="card-img" />
       <h1>{header}</h1>
-      <p>{content}</p>
+      <div className='content'>
+        {content}
+      </div>
       <button>Procced to payment</button>
       <br />
       <button>Cancel order</button>

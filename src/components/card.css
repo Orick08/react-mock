@@ -13,7 +13,7 @@
   border-top-right-radius: 20px;
 }
 
-.card p{
+.card .content{
   font-size: 16px;
   font-weight: 500;
   color: gray;
